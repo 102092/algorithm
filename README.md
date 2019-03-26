@@ -6,4 +6,4 @@
 
 #### Programmers
 
-  - [평균구하기](Programmers\Level_1\평균구하기.md)
+  - [평균구하기](Programmers/Level_1/평균구하기.md)
