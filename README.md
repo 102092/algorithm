@@ -7,3 +7,4 @@
 #### Programmers
 
   - [평균구하기](Programmers/Level_1/평균구하기.md)
+  - [문자열다루기기본](Programmers/Level_1/문자열다루기기본.md)
