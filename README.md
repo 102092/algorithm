@@ -1,6 +1,6 @@
-#### JS-Algorithm-TIL
+#### Algorithm-TIL
 
-- JS 알고리즘 주중 1개씩, 주말 복습
+- 알고리즘 주중 1개씩, 주말 복습
 - Atom editor 사용
 - 사이트별로 폴더 기반 정리
 
