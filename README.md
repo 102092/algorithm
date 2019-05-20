@@ -13,5 +13,5 @@
 
 #### CheckIo
 
-  - [Mutiply](Programmers/Elementary/Multiply.md)
-  - [SayHi](Programmers/Elementary/SayHi.md)
+  - [Mutiply](Checkio/Elementary/Multiply.md)
+  - [SayHi](Checkio/Elementary/SayHi.md)
