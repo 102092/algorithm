@@ -10,3 +10,8 @@
   - [문자열다루기기본](Programmers/Level_1/문자열다루기기본.md)
   - [짝수홀수](Programmers/Level_1/짝수홀수.md)
   - [직사각형별찍기](Programmers/Level_1/직사각형별찍기.md)
+
+#### CheckIo
+
+  - [Mutiply](Programmers/Elementary/Multiply.md)
+  - [SayHi](Programmers/Elementary/SayHi.md)
