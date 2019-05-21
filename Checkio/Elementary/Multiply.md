@@ -1,5 +1,3 @@
-
-### Mutiply(intro)
 - [링크](https://py.checkio.org/mission/multiply-intro/share/b3793e7677e3d43418e377b8847685aa/)
 
 ##### 내 풀이

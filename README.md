@@ -10,8 +10,16 @@
   - [문자열다루기기본](Programmers/Level_1/문자열다루기기본.md)
   - [짝수홀수](Programmers/Level_1/짝수홀수.md)
   - [직사각형별찍기](Programmers/Level_1/직사각형별찍기.md)
+  - [수박수박](Programmers/Level_1/수박수박.md)
+  - [약수의합](Programmers/Level_1/약수의합.md)
+  - [자릿수더하기](Programmers/Level_1/자릿수더하기.md)
+
+
 
 #### CheckIo
 
   - [Mutiply](Checkio/Elementary/Multiply.md)
   - [SayHi](Checkio/Elementary/SayHi.md)
+  - [IndexPower](Checkio/Elementary/IndexPower.md)
+  - [EasyUnpack](Checkio/Elementary/EasyUnpack.md)
+  - [DigitMultiplication](Checkio/Elementary/DigitMultiplication.md)
