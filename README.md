@@ -13,6 +13,7 @@
   - [수박수박](Programmers/Level_1/수박수박.md)
   - [약수의합](Programmers/Level_1/약수의합.md)
   - [자릿수더하기](Programmers/Level_1/자릿수더하기.md)
+  - [서울에서김서방찾기](Programmers/Level_1/서울에서김서방찾기.md)
 
 
 
@@ -23,3 +24,4 @@
   - [IndexPower](Checkio/Elementary/IndexPower.md)
   - [EasyUnpack](Checkio/Elementary/EasyUnpack.md)
   - [DigitMultiplication](Checkio/Elementary/DigitMultiplication.md)
+  - [SecretMessage](Checkio/Elementary/SecretMessage.md)
