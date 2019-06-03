@@ -15,6 +15,7 @@
   - [자릿수더하기](Programmers/Level_1/자릿수더하기.md)
   - [서울에서김서방찾기](Programmers/Level_1/서울에서김서방찾기.md)
   - [하샤드수](Programmers/Level_1/하샤드수.md)
+  - [문자열내p와y의개수](Programmers/Level_1/문자열내p와y의개수.md)
 
 
 
