@@ -40,25 +40,6 @@ class Solution {
 
         return answer;
     }
-}class Solution {
-  public boolean solution(int x) {
-      boolean answer = false;
-      int res = 0;
-      int input = x;
-      
-      while(input!=0){
-         res += input%10;
-         input /= 10;
-      }      
-      
-      if(x%res == 0){
-          answer = true;
-      }else{
-          answer = false;
-      }      
-      return answer;
-  }
-}
 
 ```
 
