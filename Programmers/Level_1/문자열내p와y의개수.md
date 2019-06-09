@@ -80,4 +80,4 @@ class Solution {
 ```
 
 - `String` . `charAt` 이 어떤 역할을 하고 있는지 알아보면 좋을 것 같다.
-- 'charAt` , String 문장에서 인덱스에 해당하는 한개의 문자를 추출하는 메서드
+- `charAt` , String 문장에서 인덱스에 해당하는 한개의 문자를 추출하는 메서드
