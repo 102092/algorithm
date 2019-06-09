@@ -29,3 +29,4 @@
   - [SecretMessage](Checkio/Elementary/SecretMessage.md)
   - [FizzBuzz](Checkio/Elementary/FizzBuzz.md)
   - [EvenTheLast](Checkio/Elementary/EvenTheLast.md)
+  - [FirstWord](Checkio/Elementary/FirstWord.md)
