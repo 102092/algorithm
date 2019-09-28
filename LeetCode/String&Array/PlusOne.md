@@ -16,6 +16,7 @@ public class PlusOne {
     }
 
     private static int[] plusOne(int[] digits) {
+      	//뒤에서 부터 시작한다.
         for (int i = digits.length-1; i >= 0; i--) {
             if(digits[i] != 9){
                 digits[i]++;
