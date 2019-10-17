@@ -52,7 +52,7 @@ public class Main {
             // 맨 왼쪽서 하나 올라가기
             if (colStart <= colEnd)
                 for (int i = rowEnd; i >= rowStart; i--) {
-                    result.add(matrix[rowEnd][colStart]);
+                    result.add(matrix[i][colStart]);
                 }
             colStart++;
 
