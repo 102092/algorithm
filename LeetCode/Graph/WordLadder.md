@@ -66,6 +66,68 @@ public class WordLadder {
 
 ## 나의풀이
 
+```java
+package app;
+
+import java.util.*;
+
+public class WordLadder {
+    public static void main(final String[] args) throws Exception {
+        String[] words = { "hot", "dot", "lot", "log", "cog" };
+        // String[] words = { "hot", "dot", "dog", "lot", "log" };
+
+        List<String> wordList = Arrays.asList(words);
+        WordLadder w = new WordLadder();
+        System.out.println(w.ladderLength_neighbor("hit", "cog", wordList));
+    }
+
+    private int ladderLength_neighbor(String beginWord, String endWord, List<String> wordList) {
+        if (wordList == null || !wordList.contains(endWord))
+            return 0;
+        Queue<String> q = new LinkedList<>();
+        Set<String> dict = new HashSet<>(wordList);
+
+        q.offer(beginWord);
+        // dict.add(endWord);
+        // dict.remove(beginWord);
+
+        int level = 1;
+
+        while (!q.isEmpty()) {
+            int size = q.size(); // 1 , "hit" 단어 들어가있음.
+            for (int i = 0; i < size; i++) {
+                String str = q.poll(); // hit
+                if (str.equals(endWord))
+                    return level;
+                for (String neighbor : neighbors(str, dict)) {
+                    q.offer(neighbor);
+                }
+            }
+            level++;
+
+        }
+        return 0;
+    }
+
+    private List<String> neighbors(String s, Set<String> wordList) {
+        List<String> res = new LinkedList<>();
+        // Set<String> dict = new HashSet<>(wordList); // 중복을 허용하지 않는 저장장치
+
+        for (int i = 0; i < s.length(); i++) {
+            char[] chars = s.toCharArray();
+            for (char c = 'a'; c <= 'z'; c++) {
+                chars[i] = c;
+                String word = new String(chars);
+                if (wordList.remove(word)) {
+                    res.add(word);
+                }
+            }
+        }
+        return res;
+    }
+}
+```
+
 
 
 ## 필요개념
