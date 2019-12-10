@@ -46,7 +46,7 @@ public class RemoveInvalidParentheses {
 
 					if (str.charAt(j) != '(' && str.charAt(j) != ')')
 						continue;
-					String nStr = str.substring(0, j) + str.substring(j + 1);
+					String nStr = str.substring(0, j) + str.substring(j + 1);x
 					if (!visited.contains(nStr)) {
 						q.offer(nStr);
 						visited.add(nStr);
@@ -89,3 +89,17 @@ public class RemoveInvalidParentheses {
 - 가로를 하나하나씩 지워보면서, 완벽한 `()` 이면 체크 해놨다가, 출력한다.
 
 - vscode dubug하는 법 배웠당. 너무 좋은듯
+
+- `substring()`
+
+  - https://coding-factory.tistory.com/126
+
+  - String.substring(start) //문자열  start위치부터 끝까지 문자열 자르기
+
+  - String.substring(start,end) //문자열  start위치 부터 end전까지 문자열 발췌
+
+    ```java
+    String s= "(a)())()";
+    String temp = s.substring(0,0); // "" 공백 아무것도 반환안함.
+    ```
+
