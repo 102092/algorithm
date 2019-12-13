@@ -37,8 +37,8 @@ public class Maze1_BFS {
 		while (!q.isEmpty()) {
 			int[] point = q.poll();
 			for (int[] dir : dirs) {
-				int x = point[0] + dir[0];
-				int y = point[1] + dir[1];
+				int x = point[0];
+				int y = point[1];
 
 				while (x >= 0 && x < m && y >= 0 && y < n && maze[x][y] == 0) {
 					x += dir[0];
