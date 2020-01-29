@@ -1,8 +1,8 @@
 ## 참고
 
 - [https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/lecture/4092](https://www.inflearn.com/course/알고리즘-강좌/lecture/4092)
-
 - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+- https://www.acmicpc.net/problem/1991
 
 
 
@@ -12,28 +12,7 @@
 - 이진 검색트리가 무엇인지 학습한다.
 -  트리의 순회에 대해 학습한다.
 -  힙이 무엇인지와 힙 정렬에 대해 학습한다.
-
-
-
-## 목차
-
-#### [1. 트리와 이진트리, 순회](#1.-트리와-이진트리)
-<<<<<<< HEAD
-=======
-
-#### [2. 이진검색트리](#2.-이진-검색-트리)
-
-#### [3. 힙, 힙정렬](#3.-힙,-힙정렬)
-
-#### [4. 백준 1991](#4.-백준-1991)
-
->>>>>>> 7409554b01bef879bcdec5f7b7211e4026a58ae5
-
-#### [2. 이진검색트리](#2.-이진-검색-트리)
-
-#### [3. 힙, 힙정렬](#3.-힙,-힙정렬)
-
-#### [4. 백준 1991](#4.-백준-1991)
+-  [백준 1991 풀기](#4.-백준-1991)
 
 
 
@@ -469,10 +448,6 @@
 
 
 ## 4. 백준 1991
-
-- https://www.acmicpc.net/problem/1991
-
-
 
 ```java
 package algorithm.jan29;
