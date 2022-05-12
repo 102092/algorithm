@@ -42,3 +42,30 @@ public class Solution {
 
 - 제한사항
     - 만약에 head == null 이거나 head.next == null 이면 -1를 리턴하면 될듯.
+
+- 기타
+    - two pointer from linked list
+
+```java
+// Initialize slow & fast pointers
+ListNode slow = head;
+ListNode fast = head;
+/**
+ * Change this condition to fit specific problem.
+ * Attention: remember to avoid null-pointer error
+ **/
+while (slow != null && fast != null && fast.next != null) {
+    slow = slow.next;           // move slow pointer one step each time
+    fast = fast.next.next;      // move fast pointer two steps each time
+    if (slow == fast) {         // change this condition to fit specific problem
+        return true;
+    }
+}
+return false;   // change return value to fit specific problem
+
+```
+- he space complexity will be O(1)
+- if there is no cycle, the fast pointer takes N/2 times
+    - N is the length of the linked list
+- If there is a cycle, the fast pointer needs M times to catch up the slower pointer
+    - M is the length of the cycle in the list
