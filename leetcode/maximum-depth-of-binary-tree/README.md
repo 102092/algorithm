@@ -29,10 +29,40 @@ class Solution {
         
     }
 }
+
+class Solution {
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        
+        Deque<TreeNode> q = new ArrayDeque<>();
+        q.add(root);
+        int depth = 0;
+        
+        while(!q.isEmpty()) {
+            depth++;
+            int size = q.size();
+            
+            for (int i = 0; i < size; i ++) {
+                TreeNode node = q.pop();
+                if (node.left != null) {
+                    q.add(node.left);
+                }
+                
+                if (node.right != null) {
+                    q.add(node.right);
+                }
+            }
+        }
+        return depth;
+    }
+}
+
 ```
 
 - 아이디어
-    - 재귀
+    - 재귀, deque
 
 - 제한조건
     - root == null인 경우
