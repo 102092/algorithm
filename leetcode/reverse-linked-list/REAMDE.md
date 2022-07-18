@@ -49,3 +49,66 @@ class Solution {
 - 기타
     - [Stack 풀이방법](https://leetcode.com/submissions/detail/697756366/)
 
+
+--- 
+
+```python
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None:
+            return None
+        
+        def reverse(node: ListNode, prev: ListNode = None):
+            if not node:
+                return prev
+        
+            next, node.next = node.next, prev
+            return reverse(next, node)
+        return reverse(head)
+             
+```
+
+- recursive
+
+```python
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        node, prev = head, None
+        
+        while node:
+            next, node.next = node.next, prev
+            prev, node = node, next
+        
+        return prev
+        
+```
+
+- iterator
+
+```python
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None:
+            return None
+        
+        stk = [] 
+        
+        while head:
+            stk.append(head)
+            head = head.next
+
+        temp = stk.pop()
+        prev = temp
+        
+        while stk:
+            temp.next = stk.pop();
+            temp = temp.next
+        
+        temp.next = None
+        return prev
+            
+```
+
+- using stack
+    - https://www.geeksforgeeks.org/program-to-reverse-a-linked-list-using-stack/
+- 다중 할당 조심
